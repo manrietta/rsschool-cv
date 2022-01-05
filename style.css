@@ -12,7 +12,11 @@ body {
     font-size: 18px;
     font-weight: 300;
     line-height: 1.5;
-    color: rgb(67, 66, 78);     
+    color: rgb(42, 40, 63);   
+    background-color: rgb(226, 209, 171);  
+}
+header {
+    background-color: rgb(34, 35, 68);
 }
 
 .main-container {
@@ -44,6 +48,7 @@ body {
     justify-content: flex-end;
     align-items: center;
     list-style: none;
+    
 }
 .nav-link {
     padding: 0 20px;
