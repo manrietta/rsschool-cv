@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
-  }
+}
+html {
+    scroll-behavior: smooth; 
+} 
 body {
     font-family: 'Roboto', sans-serif;
     min-height: 100vh;
@@ -20,7 +23,7 @@ footer {
 .container {
     max-width: 1440px;
     margin: 0 auto;
-  }
+}
 .nav-list {
     display: flex;
     justify-content: flex-end;
