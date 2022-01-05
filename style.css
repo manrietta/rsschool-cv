@@ -9,6 +9,7 @@ body {
     min-height: 100vh;
     margin: 0;
     padding: 0;
+}
 
 .main-container {
     display: flex;
@@ -21,6 +22,11 @@ body {
 .container {
     max-width: 1440px;
     margin: 0 auto;
+}
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
 }
 .nav-list {
     display: flex;
