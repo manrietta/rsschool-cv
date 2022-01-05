@@ -3,6 +3,10 @@
   }
 body {
     font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    
 }
 header {
     border: 1px solid red;
