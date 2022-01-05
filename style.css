@@ -9,16 +9,21 @@ body {
     min-height: 100vh;
     margin: 0;
     padding: 0;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: rgb(67, 66, 78);     
 }
 
 .main-container {
     display: flex;
     flex-wrap: wrap;
 }
-      
+
 .section {
     width: 50%;
 }
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -27,6 +32,12 @@ body {
     .section {
       width: 100%;
     }
+}
+.section-title {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #7a71af;
 }
 .nav-list {
     display: flex;
@@ -39,7 +50,9 @@ body {
     line-height: 50px;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
     font-size: 90%;
-    color: darkslategray;
+    color: rgb(152, 152, 206);
     font-weight: 500;
 }
