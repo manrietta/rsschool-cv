@@ -6,7 +6,7 @@ body {
     min-height: 100vh;
     margin: 0;
     padding: 0;
-    
+
 }
 header {
     border: 1px solid red;
@@ -17,3 +17,7 @@ main {
 footer {
     border: 1px solid red;
 }
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
